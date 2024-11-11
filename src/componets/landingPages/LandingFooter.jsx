@@ -1,7 +1,7 @@
 import React from "react";
 import { BsFacebook, BsLinkedin, BsTwitter, BsYoutube } from "react-icons/bs";
 import { Link as ScrollLink } from "react-scroll";
-import { logoImg } from "../../constant";
+import { companyDetails, logoImg } from "../../constant";
 import { Link } from "react-router-dom";
 
 const LandingFooter = () => {
@@ -57,15 +57,14 @@ const LandingFooter = () => {
               <h6 className="font-medium mb-1">Contact Us</h6>
               <div className="flex flex-col">
                 <h6 className="text-[.9rem] mb-1">Phone</h6>
-                <Link className="text-white/70 desc text-sm">
-                  +91-9715265678
+                <Link to={`tel:${companyDetails.phone}`} className="text-white/70 desc text-sm">
+                  {companyDetails.phone}
                 </Link>
               </div>
               <div className="flex flex-col mt-2">
                 <h6 className="text-[.9rem] mb-1">Office Address</h6>
                 <p className="text-white/70 desc text-sm max-w-[15rem]">
-                  S F NO 395/1B1A1, LR Nagar, V Kota Road, Pernambut, 635810,
-                  Vellore District, Tamil Nadu
+                  {companyDetails.address}
                 </p>
               </div>
             </div>
