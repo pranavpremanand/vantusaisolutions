@@ -77,7 +77,7 @@ const OurServices = ({ length }) => {
             <IoMdClose />
           </button>
         </div>
-        <div className="wrapper flex flex-col gap-6 tex-white pb-[2rem]">
+        <div className="px-4 flex flex-col gap-6 tex-white pb-[2rem]">
           <h1 className="heading-2">{selectedService.title}</h1>
           <p className="desc whitespace-pre-line">
             {selectedService.detailContent}

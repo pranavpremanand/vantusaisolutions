@@ -56,7 +56,7 @@ export {
 export const companyDetails = {
   phone: "+91-9354464633",
   whatsapp: "+91-9354464633",
-  email: "abc@example.com",
+  email: "vantusaisolutionsllp@gmail.com",
   address:
     "U-128, Shakarpur, First Floor, Delhi-92",
 };
@@ -226,6 +226,13 @@ export const allServices = [
     desc: "Empowering Businesses with Secure and Transparent Blockchain Solutions for the Next Generation of Digital Trust.",
     detailContent:
       "At Vantus AI Solution LLP., we provide cutting-edge blockchain development services that revolutionize the decentralised operation, security, and transparency of your company's operations. Our expertise includes developing secure smart contracts, cutting-edge decentralised apps, and bespoke cryptocurrency solutions—all meticulously crafted to enable your company to fully leverage the groundbreaking possibilities of blockchain technology. Using this cutting-edge technology, we bring your company at the forefront of the digital economy by boosting operational efficiency, bolstering security, and cultivating stakeholder confidence. Discover a new era of reliability and innovation with our comprehensive blockchain solutions, designed to address the specific challenges and possibilities faced by your industry.",
+  },
+  {
+    id: 7,
+    title: "Virtual Reality (VR) and Augmented Reality (AR) Development",
+    desc: "Immerse your audience with cutting-edge VR and AR experiences that redefine engagement and elevate brand perception.",
+    detailContent:
+      "At Vantus AI Solution LLP., we specialize in developing immersive Virtual Reality (VR) and Augmented Reality (AR) solutions that bring digital content to life and bridge the gap between reality and technology. Our team utilizes advanced AI-driven techniques to create interactive, realistic, and engaging VR and AR applications, tailored to meet the unique needs of your business.\n\n Whether you aim to enhance customer experience, provide innovative training, or create captivating virtual showcases, our VR and AR services open up limitless possibilities. Our solutions empower brands to engage audiences on a deeper level, fostering a sense of connection and making your products or services more memorable. Let us help you unlock the future of immersive technology to drive growth and innovation for your business.",
   },
 ];
 
