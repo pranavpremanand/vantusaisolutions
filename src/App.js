@@ -12,6 +12,7 @@ import { LoadingSpinner } from "./componets/common/LoadingSpinner";
 import SpinnerContextProvider, {
   LoadingSpinnerContext,
 } from "./componets/SpinnerContext";
+import { Toaster } from "react-hot-toast";
 
 AOS.init({
   once: true,
@@ -21,6 +22,15 @@ export default function App() {
   return (
     <SpinnerContextProvider>
       <LoadingSpinnerContext />
+      <Toaster
+        position="top-bottom"
+        toastOptions={{
+          style: {
+            background: "#010C2A",
+            color: "#ffffff",
+          },
+        }}
+      />
       <Suspense fallback={<LoadingSpinner />}>
         <Routes>
           {/* Website Pages */}

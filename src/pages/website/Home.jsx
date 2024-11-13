@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Contact from "../../componets/landingPages/Contact";
+import Contact from "../../componets/common/Contact";
 import aboutUsImg from "../../assets/images/landing-aboutus.png";
 import WhyChooseUs from "../../componets/common/WhyChooseUs";
 import ReactPlayer from "react-player";

@@ -6,7 +6,7 @@ import section5Img4 from "../../assets/images/section-5-img-4.png";
 import section5Img5 from "../../assets/images/section-5-img-5.png";
 import section5Img6 from "../../assets/images/section-5-img-6.png";
 import section5Img7 from "../../assets/images/section-5-img-7.png";
-import Contact from "../../componets/landingPages/Contact";
+import Contact from "../../componets/common/Contact";
 import {
   appDevBanner,
   appLandingAbout,
