@@ -30,7 +30,6 @@ export default function App() {
       >
         <BsWhatsapp className="text-4xl" />
       </Link>
-      
       <Toaster
         position="top-bottom"
         toastOptions={{
