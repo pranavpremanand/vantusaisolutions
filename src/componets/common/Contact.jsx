@@ -17,6 +17,7 @@ const Contact = () => {
       name: "",
       email: "",
       subject: "",
+      phone: "",
       message: "",
     },
   });
@@ -27,6 +28,7 @@ const Contact = () => {
 
     var emailBody = "Name: " + values.name + "\n\n";
     emailBody += "Email: " + values.email + "\n\n";
+    emailBody += "Phone Number: " + values.phone + "\n\n";
     emailBody += "Message:\n" + values.message;
 
     // Construct the request payload
@@ -78,7 +80,6 @@ const Contact = () => {
           >
             <div className="">
               <input
-                required
                 className="w-full bg-transparent outline-none border rounded-sm font-light border-white/40 px-2 py-3"
                 type="text"
                 placeholder="Full Name"
@@ -97,7 +98,6 @@ const Contact = () => {
             </div>
             <div className="">
               <input
-                required
                 className="w-full bg-transparent outline-none border rounded-sm font-light border-white/40 px-2 py-3"
                 type="email"
                 placeholder="Email"
@@ -113,7 +113,22 @@ const Contact = () => {
             </div>
             <div className="">
               <input
-                required
+                type="tel"
+                className="w-full bg-transparent outline-none border rounded-sm font-light border-white/40 px-2 py-3"
+                placeholder="Phone Number"
+                inputMode="numeric"
+                {...register("phone", {
+                  required: "Phone number is required",
+                  pattern: {
+                    value: /^[0-9]{10}$/,
+                    message: "Invalid phone number",
+                  },
+                })}
+              />
+              <small className="text-red-400">{errors.phone?.message}</small>
+            </div>
+            <div className="">
+              <input
                 className="w-full bg-transparent outline-none border rounded-sm font-light border-white/40 px-2 py-3"
                 type="text"
                 placeholder="Subject"
@@ -135,7 +150,6 @@ const Contact = () => {
                 className="w-full bg-transparent outline-none border rounded-sm font-light border-white/40 px-2 py-3"
                 rows="4"
                 placeholder="Message"
-                required
                 {...register("message", {
                   required: "Message is required",
                   validate: (val) => {
@@ -149,7 +163,11 @@ const Contact = () => {
               />
               <small className="text-red-400">{errors.message?.message}</small>
             </div>
-            <button disabled={isSubmitting} className="primary-btn" type="submit">
+            <button
+              disabled={isSubmitting}
+              className="primary-btn"
+              type="submit"
+            >
               Submit
             </button>
           </form>

@@ -18,6 +18,9 @@ import WhyChooseUs from "../../componets/common/WhyChooseUs";
 import EndlessOpportunitiesSection from "../../componets/common/EndlessOpportunitiesSection";
 import LandingServices from "../../componets/landingPages/LandingServices";
 import UnlockEfficiency from "../../componets/common/UnlockEfficiency";
+import ContactForm from "../../componets/common/ContactForm";
+import Portfolio from "../../componets/landingPages/Portfolio";
+import BrandLogos from "../../componets/common/BrandLogos";
 
 export const LandingPage = ({ page }) => {
   const isWebDevelopment = Boolean(page === "web-development");
@@ -59,7 +62,9 @@ export const LandingPage = ({ page }) => {
         </div>
       </div>
 
-      <section id="about" className="py-[5rem] bg-black text-white wrapper">
+      <ContactForm />
+
+      <section id="about" className="pb-[5rem] bg-black text-white wrapper">
         <div
           data-aos="fade-up"
           className="gradient-rounded-text-box mx-auto lg:mx-0"
@@ -114,6 +119,7 @@ export const LandingPage = ({ page }) => {
 
       <LandingServices page={page} />
       <WhyChooseUs />
+      <Portfolio page={page} />
 
       <section className="py-[5rem] bg-black text-white">
         <div className="wrapper text-center flex flex-col gap-3">
@@ -218,9 +224,9 @@ export const LandingPage = ({ page }) => {
       </section>
 
       {/* <Faqs /> */}
-
       <UnlockEfficiency />
       <EndlessOpportunitiesSection />
+      <BrandLogos />
       <Contact />
     </>
   );
