@@ -14,6 +14,7 @@ import SpinnerContextProvider, {
 } from "./componets/SpinnerContext";
 import { Toaster } from "react-hot-toast";
 import { BsWhatsapp } from "react-icons/bs";
+import GoogleTagManager from "./componets/GoogleTagManager";
 
 AOS.init({
   once: true,
@@ -22,8 +23,9 @@ AOS.init({
 export default function App() {
   return (
     <SpinnerContextProvider>
+      <GoogleTagManager />
       <LoadingSpinnerContext />
-      
+
       <Link
         to={`https://wa.me/${companyDetails.whatsapp}`}
         target="_blank"
@@ -31,7 +33,7 @@ export default function App() {
       >
         <BsWhatsapp className="text-4xl" />
       </Link>
-      
+
       <Toaster
         position="top-bottom"
         toastOptions={{
