@@ -54,8 +54,8 @@ export {
 
 // company details
 export const companyDetails = {
-  phone: "+91-9354464633",
-  whatsapp: "+91-9354464633",
+  phone: "+919354464633",
+  whatsapp: "+919354464633",
   email: "vantusaisolutionsllp@gmail.com",
   address:
     "U-128, Shakarpur, First Floor, Delhi-92",

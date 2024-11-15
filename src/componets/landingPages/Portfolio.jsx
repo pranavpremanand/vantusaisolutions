@@ -9,7 +9,7 @@ const Portfolio = ({ page }) => {
       <div className="wrapper">
         <div className="flex flex-col items-center gap-5 text-white">
           <div className="gradient-rounded-text-box">Portfolio</div>
-          <h2 className="heading-2 text-center mb-5">Our Selected Projects</h2>
+          <h2 className="heading-2 text-center mb-5">Few of Our Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {portfolio.map((item) => (
               <div
