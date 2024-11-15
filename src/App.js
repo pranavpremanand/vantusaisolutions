@@ -23,6 +23,7 @@ export default function App() {
   return (
     <SpinnerContextProvider>
       <LoadingSpinnerContext />
+      
       <Link
         to={`https://wa.me/${companyDetails.whatsapp}`}
         target="_blank"
@@ -30,6 +31,7 @@ export default function App() {
       >
         <BsWhatsapp className="text-4xl" />
       </Link>
+      
       <Toaster
         position="top-bottom"
         toastOptions={{
