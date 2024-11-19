@@ -14,7 +14,7 @@ import SpinnerContextProvider, {
 } from "./componets/SpinnerContext";
 import { Toaster } from "react-hot-toast";
 import { BsWhatsapp } from "react-icons/bs";
-import GoogleTagManager from "./componets/GoogleTagManager";
+import Thankyou from "./pages/Thankyou";
 
 AOS.init({
   once: true,
@@ -23,7 +23,6 @@ AOS.init({
 export default function App() {
   return (
     <SpinnerContextProvider>
-      <GoogleTagManager />
       <LoadingSpinnerContext />
 
       <Link
@@ -58,6 +57,16 @@ export default function App() {
               }
             />
           ))}
+
+          <Route
+            path="/thank-you"
+            element={
+              <>
+
+                <Thankyou />
+              </>
+            }
+          />
 
           {/* Landing Pages */}
           <Route

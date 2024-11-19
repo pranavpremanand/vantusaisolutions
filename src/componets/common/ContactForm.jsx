@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import toast from "react-hot-toast";
 import { BsFacebook, BsLinkedin, BsTwitter, BsYoutube } from "react-icons/bs";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { companyDetails } from "../../constant";
 import { useForm } from "react-hook-form";
 import { SpinnerContext } from "../SpinnerContext";
@@ -11,6 +11,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const ContactForm = () => {
   const { setSpinner } = useContext(SpinnerContext);
+  const navigate = useNavigate();
   const {
     register,
     handleSubmit,
@@ -50,9 +51,14 @@ const ContactForm = () => {
       body: JSON.stringify(payload),
     })
       .then((response) => response.json())
-      .then(() => {
-        toast.success("Email sent successfully");
-        reset();
+      .then((res) => {
+        if (res.error) {
+          toast.error(res.error);
+        } else {
+          toast.success("Email sent successfully");
+          reset();
+          navigate("/thank-you");
+        }
       })
       .catch((error) => {
         toast.error(error.message);

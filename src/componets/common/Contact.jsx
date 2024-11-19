@@ -3,9 +3,11 @@ import { SpinnerContext } from "../SpinnerContext";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
 import { companyDetails } from "../../constant";
+import { useNavigate } from "react-router-dom";
 
 const Contact = () => {
   const { setSpinner } = useContext(SpinnerContext);
+  const navigate = useNavigate();
   const {
     register,
     handleSubmit,
@@ -46,9 +48,14 @@ const Contact = () => {
       body: JSON.stringify(payload),
     })
       .then((response) => response.json())
-      .then(() => {
-        toast.success("Email sent successfully");
-        reset();
+      .then((res) => {
+        if (res.error) {
+          toast.error(res.error);
+        } else {
+          toast.success("Email sent successfully");
+          reset();
+          navigate("/thank-you");
+        }
       })
       .catch((error) => {
         toast.error(error.message);
