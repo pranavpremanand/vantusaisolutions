@@ -5,16 +5,16 @@ import whyChooseUsIcon3 from "./assets/images/tdesign_user-talk.png";
 import whyChooseUsIcon4 from "./assets/images/healthicons_ui-secure-outline.png";
 import whyChooseUsPng from "./assets/images/whychooseus-png.png";
 import faqPng from "./assets/images/faq-character.png";
-import appDevBanner from "./assets/images/app-dev-banner.jpg";
-import webDevBanner from "./assets/images/web-landing-banner.jpg";
+import appDevBanner from "./assets/images/app-dev-banner.webp";
+import webDevBanner from "./assets/images/web-landing-banner.webp";
 import webLandingAbout from "./assets/images/web-landing-about1.png";
 import appLandingAbout from "./assets/images/app-landing-about.png";
 import endlessOpportunitiesImg1 from "./assets/images/section-8-img-1.png";
 import endlessOpportunitiesImg2 from "./assets/images/section-8-img-2.png";
 import endlessOpportunitiesImg3 from "./assets/images/section-8-img-3.png";
 import homeBannerVideo from "./assets/videos/home-banner.mp4";
-import defaultBanner from "./assets/images/banner.jpg";
-import aboutUsBanner from "./assets/images/about-us-banner.jpg";
+import defaultBanner from "./assets/images/banner.webp";
+import aboutUsBanner from "./assets/images/about-us-banner.webp";
 import aboutUsGridImg1 from "./assets/images/aboutus-png1.png";
 import aboutUsGridImg2 from "./assets/images/aboutus-png2.png";
 import aboutUsGridImg3 from "./assets/images/aboutus-png3.png";
@@ -188,7 +188,7 @@ export const allServices = [
   {
     id: 1,
     title: "Web Development (Full Stack)",
-    desc: "Your website is the digital face of your business. At Vantus AI Solution LLP, we specialize in crafting dynamic and responsive websites that drive digital transformation.",
+    desc: "Your website is the digital face of your business. At Vantus AI Solutions LLP, we specialize in crafting dynamic and responsive websites that drive digital transformation.",
     detailContent:
       "We provide full-stack web development services, that involve back-end infrastructure and front-end user interfaces. Our area of expertise is developing safe, scalable, and reliable online application that work flawlessly across all platforms. Our artificial intelligence (AI) enhanced web solutions guarantee optimal speed, user engagement, and security, no matter any kind of website—corporate, e-commerce, or sophisticated web application.",
   },
@@ -197,42 +197,42 @@ export const allServices = [
     title: "Mobile App Development",
     desc: "Achieve Mobile Supremacy through Custom App Development Solutions that Combine User- Centric Design, Seamless Functionality, and Sustainable Business Growth.",
     detailContent:
-      "At Vantus AI Solution LLP., we specialize in developing mobile applications that incorporate cutting-edge artificial intelligence into all facets of the user experience, exceeding conventional functionality. Whether for iOS or Android, our innovative strategy produces user-friendly, high-performing apps that are meticulously designed to fulfil the distinctive requirements of your company.\n\n We emphasise the consumer's experience initially, ensure that the apps we develop not solely retain users intrigued but also streamline workflows and maximise performance. Each application we develop is a potent tool intended to improve productivity and foster greater engagement, encouraging your company to thrive in a world that is getting more and more mobile-focused. Our solutions can adapt in real-time, offering personalised experiences that interact with customers and enhance the exposure of your brand by leveraging AI capabilities.",
+      "At Vantus AI Solutions LLP., we specialize in developing mobile applications that incorporate cutting-edge artificial intelligence into all facets of the user experience, exceeding conventional functionality. Whether for iOS or Android, our innovative strategy produces user-friendly, high-performing apps that are meticulously designed to fulfil the distinctive requirements of your company.\n\n We emphasise the consumer's experience initially, ensure that the apps we develop not solely retain users intrigued but also streamline workflows and maximise performance. Each application we develop is a potent tool intended to improve productivity and foster greater engagement, encouraging your company to thrive in a world that is getting more and more mobile-focused. Our solutions can adapt in real-time, offering personalised experiences that interact with customers and enhance the exposure of your brand by leveraging AI capabilities.",
   },
   {
     id: 3,
     title: "Game Development",
-    desc: "At Vantus AI Solution LLP, we specialize in game development, creating immersive and enjoyable gaming experiences.",
+    desc: "At Vantus AI Solutions LLP, we specialize in game development, creating immersive and enjoyable gaming experiences.",
     detailContent:
-      "At Vantus AI Solution LLP., we deploy cutting-edge artificial intelligence (AI) to develop games that re-invent the gaming experience. Our dedicated team of experts uses the finest and most recent advances in artificial intelligence to transform innovative concepts into captivating, immersive worlds. From initial ideation to the meticulous design and seamless launch, we employ innovative AI technology to generate immersive gaming experiences that resonate with players on multiple levels.\n\n Our cutting-edge solutions enable developers to build dynamic gaming environments that adapt to player actions and interactions in an innovative manner, ensuring unparalleled engagement and virtually limitless creative possibilities. We boast the technical expertise and creative vision to execute your unique concept, whether it's a light-hearted mobile game that delights users during downtime or a vast, multi-layered multiplayer universe that fosters involvement and competitiveness.",
+      "At Vantus AI Solutions LLP., we deploy cutting-edge artificial intelligence (AI) to develop games that re-invent the gaming experience. Our dedicated team of experts uses the finest and most recent advances in artificial intelligence to transform innovative concepts into captivating, immersive worlds. From initial ideation to the meticulous design and seamless launch, we employ innovative AI technology to generate immersive gaming experiences that resonate with players on multiple levels.\n\n Our cutting-edge solutions enable developers to build dynamic gaming environments that adapt to player actions and interactions in an innovative manner, ensuring unparalleled engagement and virtually limitless creative possibilities. We boast the technical expertise and creative vision to execute your unique concept, whether it's a light-hearted mobile game that delights users during downtime or a vast, multi-layered multiplayer universe that fosters involvement and competitiveness.",
   },
   {
     id: 4,
     title: "Chatbots",
     desc: "Chatbots to Re-define Customer Interaction, Drive Revenue, and Future-Proof Your Business.",
     detailContent:
-      "Use the disruptive potential of artificial intelligence to rethink how your company interacts with clients. At Vantus AI Solution LLP., we specialised in developing sophisticated chatbots that provide excellent, significantly boosting customer satisfaction and seamlessly automating tedious tasks. Our intelligent chatbots are designed to offer tailored, human-like interactions that enhance consumer satisfaction and improve operational efficiency. This allows your company to focus on what truly matters and fostering lasting relationships and accomplishing strategic objectives. By leveraging our cutting-edge technologies, you may reduce operating expenses and optimise resources while ensuring your clients feel valued and engaged at all times.",
+      "Use the disruptive potential of artificial intelligence to rethink how your company interacts with clients. At Vantus AI Solutions LLP., we specialised in developing sophisticated chatbots that provide excellent, significantly boosting customer satisfaction and seamlessly automating tedious tasks. Our intelligent chatbots are designed to offer tailored, human-like interactions that enhance consumer satisfaction and improve operational efficiency. This allows your company to focus on what truly matters and fostering lasting relationships and accomplishing strategic objectives. By leveraging our cutting-edge technologies, you may reduce operating expenses and optimise resources while ensuring your clients feel valued and engaged at all times.",
   },
   {
     id: 5,
     title: "Data Analytics",
     desc: "Transforming Data into Actionable Insights with Advanced Analytics for Strategic Growth and Informed Decision-Making.",
     detailContent:
-      "With the guidance of our cutting-edge AI-powered data analytics services, unleash the full potential of your data. At Vantus AI Solution LLP., we enable companies to acquire valuable insights, automate workflows, and make accurate, data-driven decisions that stimulate innovation and creativity. With the support of our sophisticated analytics capabilities, you will be able identify new trends, comprehend consumer behaviour in tremendous detail, and forecast future performance with precision. We ensure that your company leads the way in a rapidly evolving, data-centric world and remains competitive by turning complex data into actionable intelligence. With the assistance of our expertise, you may leverage data to propel your company's growth and accomplish unparalleled achievement.",
+      "With the guidance of our cutting-edge AI-powered data analytics services, unleash the full potential of your data. At Vantus AI Solutions LLP., we enable companies to acquire valuable insights, automate workflows, and make accurate, data-driven decisions that stimulate innovation and creativity. With the support of our sophisticated analytics capabilities, you will be able identify new trends, comprehend consumer behaviour in tremendous detail, and forecast future performance with precision. We ensure that your company leads the way in a rapidly evolving, data-centric world and remains competitive by turning complex data into actionable intelligence. With the assistance of our expertise, you may leverage data to propel your company's growth and accomplish unparalleled achievement.",
   },
   {
     id: 6,
     title: "Blockchain Development",
     desc: "Empowering Businesses with Secure and Transparent Blockchain Solutions for the Next Generation of Digital Trust.",
     detailContent:
-      "At Vantus AI Solution LLP., we provide cutting-edge blockchain development services that revolutionize the decentralised operation, security, and transparency of your company's operations. Our expertise includes developing secure smart contracts, cutting-edge decentralised apps, and bespoke cryptocurrency solutions—all meticulously crafted to enable your company to fully leverage the groundbreaking possibilities of blockchain technology. Using this cutting-edge technology, we bring your company at the forefront of the digital economy by boosting operational efficiency, bolstering security, and cultivating stakeholder confidence. Discover a new era of reliability and innovation with our comprehensive blockchain solutions, designed to address the specific challenges and possibilities faced by your industry.",
+      "At Vantus AI Solutions LLP., we provide cutting-edge blockchain development services that revolutionize the decentralised operation, security, and transparency of your company's operations. Our expertise includes developing secure smart contracts, cutting-edge decentralised apps, and bespoke cryptocurrency solutions—all meticulously crafted to enable your company to fully leverage the groundbreaking possibilities of blockchain technology. Using this cutting-edge technology, we bring your company at the forefront of the digital economy by boosting operational efficiency, bolstering security, and cultivating stakeholder confidence. Discover a new era of reliability and innovation with our comprehensive blockchain solutions, designed to address the specific challenges and possibilities faced by your industry.",
   },
   {
     id: 7,
     title: "Virtual Reality (VR) and Augmented Reality (AR) Development",
     desc: "Immerse your audience with cutting-edge VR and AR experiences that redefine engagement and elevate brand perception.",
     detailContent:
-      "At Vantus AI Solution LLP., we specialize in developing immersive Virtual Reality (VR) and Augmented Reality (AR) solutions that bring digital content to life and bridge the gap between reality and technology. Our team utilizes advanced AI-driven techniques to create interactive, realistic, and engaging VR and AR applications, tailored to meet the unique needs of your business.\n\n Whether you aim to enhance customer experience, provide innovative training, or create captivating virtual showcases, our VR and AR services open up limitless possibilities. Our solutions empower brands to engage audiences on a deeper level, fostering a sense of connection and making your products or services more memorable. Let us help you unlock the future of immersive technology to drive growth and innovation for your business.",
+      "At Vantus AI Solutions LLP., we specialize in developing immersive Virtual Reality (VR) and Augmented Reality (AR) solutions that bring digital content to life and bridge the gap between reality and technology. Our team utilizes advanced AI-driven techniques to create interactive, realistic, and engaging VR and AR applications, tailored to meet the unique needs of your business.\n\n Whether you aim to enhance customer experience, provide innovative training, or create captivating virtual showcases, our VR and AR services open up limitless possibilities. Our solutions empower brands to engage audiences on a deeper level, fostering a sense of connection and making your products or services more memorable. Let us help you unlock the future of immersive technology to drive growth and innovation for your business.",
   },
 ];
 

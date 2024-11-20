@@ -39,7 +39,7 @@ const ContactForm = () => {
     // Construct the request payload
     var payload = {
       to: companyDetails.email,
-      subject: "Contact Form Submission - Vantus AI Solution LLP",
+      subject: "Contact Form Submission - Vantus AI Solutions LLP",
       body: emailBody,
     };
 

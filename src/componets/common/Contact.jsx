@@ -75,7 +75,7 @@ const Contact = () => {
             <p className="desc">
               Ready to elevate your business with cutting-edge AI and digital
               solutions? <br /> Contact{" "}
-              <span className="font-semibold">Vantus AI Solution LLP</span>{" "}
+              <span className="font-semibold">Vantus AI Solutions LLP</span>{" "}
               today and discover how we can help you achieve your business
               goals.
             </p>

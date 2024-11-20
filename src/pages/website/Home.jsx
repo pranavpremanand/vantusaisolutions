@@ -32,7 +32,7 @@ const Home = () => {
             <div className="rounded-text-box border-white/70 font-medium">
               IT Services
             </div>
-            <h1 className="heading-1">Welcome to <br /> Vantus AI Solution LLP.</h1>
+            <h1 className="heading-1">Welcome to <br /> Vantus AI Solutions LLP.</h1>
             <p className="text-2xl">Where Innovation Meets Intelligence!</p>
             <Link to="/contact-us" className="primary-btn mt-2">
               Get Started
@@ -53,7 +53,7 @@ const Home = () => {
             <div className="flex flex-col gap-7 text-center lg:text-start">
               <h2 className="heading-2">Uplifting Business, Powered by AI</h2>
               <p className="desc">
-                At Vantus AI Solution LLP., our perpetual devotion to revolutionising
+                At Vantus AI Solutions LLP., our perpetual devotion to revolutionising
                 company processes though a seamless integration of cutting-edge
                 innovative technologies and artificial intelligence (AI) into
                 every facet of a company drives us. Our mission is to formulate
@@ -100,7 +100,7 @@ const Home = () => {
             Reliable IT Support for Your Business
           </h1>
           <p className="desc max-w-[50rem] mx-auto">
-            At Vantus AI Solution LLP., we firmly believe that long-term client
+            At Vantus AI Solutions LLP., we firmly believe that long-term client
             partnerships are nurtured through solutions that go beyond typical
             transactional relationships. The services we provide are designed
             with foresight to grow and evolve alongside your business, ensuring

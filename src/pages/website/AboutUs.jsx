@@ -47,7 +47,7 @@ const AboutUs = () => {
                     Expertise in AI and Emerging Technologies
                   </h6>
                   <p className="desc mt-2">
-                    Our team at Vantus AI Solution LLP. is composed of highly
+                    Our team at Vantus AI Solutions LLP. is composed of highly
                     accomplished professionals, each a recognized expert in
                     their respective fields—including artificial intelligence,
                     blockchain, data analytics, mobile app development, and
@@ -80,7 +80,7 @@ const AboutUs = () => {
                     Client-Centric Approach
                   </h6>
                   <p className="desc mt-2">
-                    At Vantus AI Solution LLP., we place the utmost importance on deeply
+                    At Vantus AI Solutions LLP., we place the utmost importance on deeply
                     understanding your unique objectives and challenges. We
                     actively listen to you at each phase and adapt to satisfy
                     your unique demands thanks to our collaborative process. Our
@@ -105,7 +105,7 @@ const AboutUs = () => {
                     streamline your operations and focus on growth while we
                     expertly manage every facet of your technological journey.
                     You can confidently navigate the intricacies of the digital
-                    landscape with Vantus AI Solution LLP.
+                    landscape with Vantus AI Solutions LLP.
                   </p>
                 </div>
                 <div data-aos="fade-left" className="h-full flex items-center">
@@ -132,7 +132,7 @@ const AboutUs = () => {
                     Security and Reliability
                   </h6>
                   <p className="desc mt-2">
-                    At Vantus AI Solution LLP., we understand that security is vital in
+                    At Vantus AI Solutions LLP., we understand that security is vital in
                     the interconnected digital world of today. It is not an
                     option. Because of this, our solutions are meticulously
                     developed with cutting-edge security methods and stringent
@@ -150,7 +150,7 @@ const AboutUs = () => {
                     Commitment to Quality
                   </h6>
                   <p className="desc mt-2">
-                    At Vantus AI Solution LLP., we take great pride in providing
+                    At Vantus AI Solutions LLP., we take great pride in providing
                     exceptional, high-quality solutions that not only meet but
                     exceed the highest industry standards. Our unwavering
                     commitment to performance, dependability, and seamless
