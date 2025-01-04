@@ -57,7 +57,10 @@ const LandingFooter = () => {
               <h6 className="font-medium mb-1">Contact Us</h6>
               <div className="flex flex-col">
                 <h6 className="text-[.9rem] mb-1">Phone</h6>
-                <Link to={`tel:${companyDetails.phone}`} className="text-white/70 desc text-sm">
+                <Link
+                  to={`tel:${companyDetails.phone}`}
+                  className="text-white/70 desc text-sm"
+                >
                   {companyDetails.phone}
                 </Link>
               </div>
@@ -70,9 +73,12 @@ const LandingFooter = () => {
             </div>
           </div>
         </div>
-        <div className="pt-4 mt-7 border-t text-gray-500 border-primary w-full">
-          <div className="flex justify-center gap-5 w-full">
-            <div className="flex gap-5 items-center mt-5">
+        <div className="pt-6 mt-7 border-t text-gray-500 border-primary w-full">
+          <div className="flex flex-col-reverse sm:flex-row justify-between items-center gap-5 w-full">
+            <p className="text-sm text-white desc text-center">
+              ©2025 Vantus AI Solutions LLP. All Rights Reserved.
+            </p>
+            <div className="flex gap-5 items-center">
               <Link>
                 <BsFacebook className="text-xl text-gray-500 hover:text-primary transition-all duration-300" />
               </Link>

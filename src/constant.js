@@ -57,10 +57,8 @@ export const companyDetails = {
   phone: "+919354464633",
   whatsapp: "+919354464633",
   email: "vantusaisolutionsllp@gmail.com",
-  address:
-    "U-128, Shakarpur, First Floor, Delhi-92",
+  address: "U-128, Shakarpur, First Floor, Delhi-92",
 };
-
 
 // website routes
 export const routes = [
@@ -285,16 +283,11 @@ export const appPortfolio = [
   {
     id: 3,
     img: require("./assets/images/app_projects/3.webp"),
-    title: "Glowsy",
+    title: "Artisan Express",
   },
   {
     id: 4,
     img: require("./assets/images/app_projects/4.webp"),
-    title: "Artisan Express",
-  },
-  {
-    id: 5,
-    img: require("./assets/images/app_projects/5.webp"),
     title: "House of Deliverance",
   },
 ];

@@ -7,7 +7,7 @@ import LandingFooter from "./componets/landingPages/LandingFooter";
 import WebsiteHeader from "./componets/website/WebsiteHeader";
 import WebsiteFooter from "./componets/website/WebsiteFooter";
 import { companyDetails, routes } from "./constant";
-import { Suspense } from "react";
+import { lazy, Suspense } from "react";
 import { LoadingSpinner } from "./componets/common/LoadingSpinner";
 import SpinnerContextProvider, {
   LoadingSpinnerContext,
@@ -15,6 +15,7 @@ import SpinnerContextProvider, {
 import { Toaster } from "react-hot-toast";
 import { BsWhatsapp } from "react-icons/bs";
 import Thankyou from "./pages/Thankyou";
+const PrivacyPolicy = lazy(() => import("./pages/website/PrivacyPolicy"));
 
 AOS.init({
   once: true,
@@ -62,8 +63,17 @@ export default function App() {
             path="/thank-you"
             element={
               <>
-
                 <Thankyou />
+              </>
+            }
+          />
+          <Route
+            path="/privacy-policy"
+            element={
+              <>
+                <WebsiteHeader />
+                <PrivacyPolicy />
+                <WebsiteFooter />
               </>
             }
           />
