@@ -22,6 +22,17 @@ const Home = () => {
           playsinline
           playing
           className="absolute"
+          config={{
+            file: {
+              attributes: {
+                style: {
+                  objectFit: "cover",
+                  width: "100%",
+                  height: "100%",
+                },
+              },
+            },
+          }}
         />
         <div className="bg-gradient-to-r to-black/50 from-transparent absolute w-full h-full"></div>
         <div className="pt-[3rem] wrapper flex items-center h-full">

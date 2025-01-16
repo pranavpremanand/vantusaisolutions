@@ -26,6 +26,7 @@ const Home = lazy(() => import("./pages/website/Home"));
 const Services = lazy(() => import("./pages/website/Services"));
 const ContactUs = lazy(() => import("./pages/website/ContactUs"));
 const AboutUs = lazy(() => import("./pages/website/AboutUs"));
+const Blogs = lazy(() => import("./pages/website/Blogs"));
 
 export {
   logoImg,
@@ -76,6 +77,11 @@ export const routes = [
     name: "About Us",
     path: "/about-us",
     component: <AboutUs />,
+  },
+  {
+    name: "Blogs",
+    path: "/blogs",
+    component: <Blogs />,
   },
   {
     name: "Contact Us",
@@ -289,5 +295,23 @@ export const appPortfolio = [
     id: 4,
     img: require("./assets/images/app_projects/4.webp"),
     title: "House of Deliverance",
+  },
+];
+
+// blogs
+export const blogs = [
+  {
+    id: 1,
+    title:
+      "Welcome to VANTUS AI SOLUTIONS LLP: Empowering Tomorrow with Intelligent Innovation",
+    image: require("./assets/images/blogs/1.webp"),
+    link: "https://vantusai.blogspot.com/2024/11/VantusAISolutionLLP.html",
+  },
+  {
+    id: 2,
+    title:
+      "Unlocking Business Potential with AI: Exploring VANTUS AI’s Data Analytics Services",
+    image: require("./assets/images/blogs/2.webp"),
+    link: "https://vantusai.blogspot.com/2024/11/unlocking-business-potential-with-ai.html",
   },
 ];
