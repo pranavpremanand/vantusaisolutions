@@ -25,6 +25,9 @@ const Blogs = () => {
               >
                 <img
                   src={item.image}
+                  loading="lazy"
+                  width='300'
+                  height='300'
                   alt={item.title}
                   className="group-hover:brightness-75 w-full rounded-xl transition-all duration-300"
                 />
