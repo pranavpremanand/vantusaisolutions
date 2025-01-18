@@ -43,7 +43,9 @@ const Home = () => {
             <div className="rounded-text-box border-white/70 font-medium">
               IT Services
             </div>
-            <h1 className="heading-1">Welcome to <br /> Vantus AI Solutions LLP.</h1>
+            <h1 className="heading-1">
+              Welcome to <br /> Vantus AI Solutions LLP.
+            </h1>
             <p className="text-2xl">Where Innovation Meets Intelligence!</p>
             <Link to="/contact-us" className="primary-btn mt-2">
               Get Started
@@ -64,20 +66,21 @@ const Home = () => {
             <div className="flex flex-col gap-7 text-center lg:text-start">
               <h2 className="heading-2">Uplifting Business, Powered by AI</h2>
               <p className="desc">
-                At Vantus AI Solutions LLP., our perpetual devotion to revolutionising
-                company processes though a seamless integration of cutting-edge
-                innovative technologies and artificial intelligence (AI) into
-                every facet of a company drives us. Our mission is to formulate
-                innovative, highly scalable digital solutions that will not only
-                spur sustainable business growth but also substantially boost
+                At Vantus AI Solutions LLP, our unwavering commitment to
+                revolutionizing company processes through the seamless
+                integration of cutting-edge technologies and artificial
+                intelligence (AI) drives us. Our mission is to develop
+                innovative, highly scalable digital solutions that not only spur
+                sustainable business growth but also significantly enhance
                 operational efficiency. We are not just passionate about
-                integrating cutting-edge technologies. We position our clients
-                at the forefront of industry innovation and give them the tools
-                they require to succeed in the rapidly changing digital world of
-                today. We assist businesses to meet and even surpass the
-                constantly changing demands of today's markets by ensuring our
-                solutions are resilient and malleable. This ensures them
-                competitive, innovative, and primed for long-term success.
+                integrating advanced technologies—we aim to position our clients
+                at the forefront of industry innovation, providing them with the
+                tools they need to succeed in today’s rapidly evolving digital
+                landscape. We help businesses meet and even exceed the
+                ever-changing demands of modern markets by ensuring our
+                solutions are resilient and adaptable. This empowers them to
+                stay competitive, foster innovation, and achieve long-term
+                success.
               </p>
             </div>
             <div className="flex gap-5 mt-4 justify-center lg:justify-start">
