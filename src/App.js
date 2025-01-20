@@ -29,7 +29,7 @@ export default function App() {
       <Link
         to={`https://wa.me/${companyDetails.whatsapp}`}
         target="_blank"
-        className="fixed bottom-[2rem] right-[2rem] z-20 p-4 rounded-full border-2 border-white bg-white hover:bg-black text-green-500 hover:text-white transition-all duration-300"
+        className="fixed bottom-[2rem] right-[2rem] z-50 p-4 rounded-full border-2 border-white bg-white hover:bg-black text-green-500 hover:text-white transition-all duration-300"
       >
         <BsWhatsapp className="text-4xl" />
       </Link>
