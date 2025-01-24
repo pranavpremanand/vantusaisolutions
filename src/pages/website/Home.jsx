@@ -44,7 +44,7 @@ const Home = () => {
               IT Services
             </div>
             <h1 className="heading-1">
-              Welcome to <br /> Vantus AI Solutions LLP.
+              Welcome to <br /> Vantus AI Solutions LLP
             </h1>
             <p className="text-2xl">Where Innovation Meets Intelligence!</p>
             <Link to="/contact-us" className="primary-btn mt-2">
